@@ -1,0 +1,36 @@
+{
+  "locale": "English",
+  "appName": "Forwardious",
+  "home": {
+    "settings": "Settings",
+    "loading": "loading"
+  },
+  "instanceDetails": {
+    "location": "Location",
+    "type": "Type",
+    "health": "Health",
+    "signUp": "SignUp",
+    "tooltip": {
+      "locationTip": "Location of instance",
+      "typeTip": "Protocol type",
+      "healthTip": "Uptime/downtime",
+      "signUpTip": "The ability to signup in this instance"
+    }
+  },
+  "settingsScreen": {
+    "theme": "Theme",
+    "darkMode": "Dark Mode",
+    "setDarkModeTheme": "Set dark mode theme",
+    "language": "Language",
+    "setTheAppLanguage": "Set language",
+    "back": "Back",
+    "general": "General",
+    "tabRefreshBehaviour": "Tab refresh Mode",
+    "tabBehaviourWhenOpeningaYoutubeUrl": "Tab mode when opening a yt url",
+    "updateTab": "Update",
+    "removeTab": "Delete"
+  },
+  "errors": {
+    "networkConnectionError": "Network connection error"
+  }
+}

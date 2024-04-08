@@ -1,0 +1,36 @@
+{
+  "locale": "العربية",
+  "appName": "Forwardious",
+  "home": {
+    "settings": "الإعدادات",
+    "loading": "جاري التحميل"
+  },
+  "instanceDetails": {
+    "location": "الموقع",
+    "type": "النوع",
+    "health": "الصحة",
+    "signUp": "التسجيل",
+    "tooltip": {
+      "locationTip": "موقع المُستنسخ",
+      "typeTip": "نوع البروتوكول",
+      "healthTip": "وقت التشغيل/التوقف",
+      "signUpTip": "القدرة على التسجيل في هذا المُستنسخ"
+    }
+  },
+  "settingsScreen": {
+    "theme": "السمة",
+    "darkMode": "الوضع المظلم",
+    "setDarkModeTheme": "تعيين سمة الوضع المظلم",
+    "language": "اللغة",
+    "setTheAppLanguage": "تعيين لغة التطبيق",
+    "back": "عودة",
+    "general": "عام",
+    "tabRefreshBehaviour": "وضع علامة التبويب",
+    "tabBehaviourWhenOpeningaYoutubeUrl": "وضع علامة التبويب عند فتح عنوان يوتيوب",
+    "updateTab": "إنعاش",
+    "removeTab": "حذف"
+  },
+  "errors": {
+    "networkConnectionError": "خطأ في الإتصال بالشبكة"
+  }
+}

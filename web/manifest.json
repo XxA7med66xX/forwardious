@@ -1,0 +1,20 @@
+{
+    "name": "forwardios",
+    "description": "A simple extension to forward YouTube links to an Invidious instance",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs",
+        "storage"
+      ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    },
+    "background": {
+        "service_worker": "background.dart.js"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "/icons/Icon-512.png"
+    }
+}
