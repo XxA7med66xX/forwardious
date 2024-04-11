@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 48 (24 per locale)
+/// Strings: 50 (25 per locale)
 ///
-/// Built on 2024-04-07 at 04:08 UTC
+/// Built on 2024-04-11 at 10:59 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -199,6 +199,7 @@ class _StringsSettingsScreenEn {
 	String get tabBehaviourWhenOpeningaYoutubeUrl => 'Tab mode when opening a yt url';
 	String get updateTab => 'Update';
 	String get removeTab => 'Delete';
+	late final _StringsSettingsScreenInvidiousPreferencesEn invidiousPreferences = _StringsSettingsScreenInvidiousPreferencesEn._(_root);
 }
 
 // Path: errors
@@ -222,6 +223,16 @@ class _StringsInstanceDetailsTooltipEn {
 	String get typeTip => 'Protocol type';
 	String get healthTip => 'Uptime/downtime';
 	String get signUpTip => 'The ability to signup in this instance';
+}
+
+// Path: settingsScreen.invidiousPreferences
+class _StringsSettingsScreenInvidiousPreferencesEn {
+	_StringsSettingsScreenInvidiousPreferencesEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get invidiousPreferences => 'Invidious preferences';
 }
 
 // Path: <root>
@@ -299,6 +310,7 @@ class _StringsSettingsScreenAr implements _StringsSettingsScreenEn {
 	@override String get tabBehaviourWhenOpeningaYoutubeUrl => 'وضع علامة التبويب عند فتح عنوان يوتيوب';
 	@override String get updateTab => 'إنعاش';
 	@override String get removeTab => 'حذف';
+	@override late final _StringsSettingsScreenInvidiousPreferencesAr invidiousPreferences = _StringsSettingsScreenInvidiousPreferencesAr._(_root);
 }
 
 // Path: errors
@@ -322,6 +334,16 @@ class _StringsInstanceDetailsTooltipAr implements _StringsInstanceDetailsTooltip
 	@override String get typeTip => 'نوع البروتوكول';
 	@override String get healthTip => 'وقت التشغيل/التوقف';
 	@override String get signUpTip => 'القدرة على التسجيل في هذا المُستنسخ';
+}
+
+// Path: settingsScreen.invidiousPreferences
+class _StringsSettingsScreenInvidiousPreferencesAr implements _StringsSettingsScreenInvidiousPreferencesEn {
+	_StringsSettingsScreenInvidiousPreferencesAr._(this._root);
+
+	@override final _StringsAr _root; // ignore: unused_field
+
+	// Translations
+	@override String get invidiousPreferences => 'تفضيلات إنفيديوس';
 }
 
 /// Flat map(s) containing all translations.
@@ -353,6 +375,7 @@ extension on Translations {
 			case 'settingsScreen.tabBehaviourWhenOpeningaYoutubeUrl': return 'Tab mode when opening a yt url';
 			case 'settingsScreen.updateTab': return 'Update';
 			case 'settingsScreen.removeTab': return 'Delete';
+			case 'settingsScreen.invidiousPreferences.invidiousPreferences': return 'Invidious preferences';
 			case 'errors.networkConnectionError': return 'Network connection error';
 			default: return null;
 		}
@@ -385,6 +408,7 @@ extension on _StringsAr {
 			case 'settingsScreen.tabBehaviourWhenOpeningaYoutubeUrl': return 'وضع علامة التبويب عند فتح عنوان يوتيوب';
 			case 'settingsScreen.updateTab': return 'إنعاش';
 			case 'settingsScreen.removeTab': return 'حذف';
+			case 'settingsScreen.invidiousPreferences.invidiousPreferences': return 'تفضيلات إنفيديوس';
 			case 'errors.networkConnectionError': return 'خطأ في الإتصال بالشبكة';
 			default: return null;
 		}

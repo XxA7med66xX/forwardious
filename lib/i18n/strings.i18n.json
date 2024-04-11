@@ -28,7 +28,10 @@
     "tabRefreshBehaviour": "Tab refresh Mode",
     "tabBehaviourWhenOpeningaYoutubeUrl": "Tab mode when opening a yt url",
     "updateTab": "Update",
-    "removeTab": "Delete"
+    "removeTab": "Delete",
+    "invidiousPreferences": {
+      "invidiousPreferences": "Invidious preferences"
+    }
   },
   "errors": {
     "networkConnectionError": "Network connection error"
