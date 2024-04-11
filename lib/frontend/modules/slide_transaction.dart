@@ -13,6 +13,7 @@ class Tranaction {
       transitionDuration: const Duration(milliseconds: 150),
       transitionsBuilder: (context, animation, secondaryAnimation, child) {
         return SlideTransition(
+          textDirection: direction,
           position: Tween(
             begin: const Offset(-1.0, 0.0),
             end: Offset.zero,

@@ -15,6 +15,8 @@ class OptionCard extends StatelessWidget {
     this.leading,
     this.trailing,
     this.margin = const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+    this.isButton = false,
+    this.onTap,
   });
 
   ///The [OptionCard.sub] is the same as [OptionCard]
@@ -27,6 +29,8 @@ class OptionCard extends StatelessWidget {
     this.leading,
     this.trailing,
     this.margin = const EdgeInsets.only(bottom: 20,left: 20,right: 20),
+    this.isButton = false,
+    this.onTap,
   });
 
   final Widget? title;
@@ -34,6 +38,8 @@ class OptionCard extends StatelessWidget {
   final Widget? leading;
   final Widget? trailing;
   final EdgeInsetsGeometry? margin;
+  final bool isButton;
+  final Function()? onTap;
 
 
   @override
@@ -45,7 +51,17 @@ class OptionCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(10),
         color: Colors.grey.withOpacity(0.1),
       ),
-      child: ListTile(
+      child: isButton ? InkWell(
+        borderRadius: BorderRadius.circular(10),
+        onTap: onTap,
+        splashFactory: NoSplash.splashFactory,
+        child: ListTile(
+          title: title,
+          subtitle: subtitle,
+          leading: leading,
+          trailing: trailing,
+        ),
+      ) : ListTile(
         title: title,
         subtitle: subtitle,
         leading: leading,

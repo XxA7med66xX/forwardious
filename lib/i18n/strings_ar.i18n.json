@@ -28,7 +28,10 @@
     "tabRefreshBehaviour": "وضع علامة التبويب",
     "tabBehaviourWhenOpeningaYoutubeUrl": "وضع علامة التبويب عند فتح عنوان يوتيوب",
     "updateTab": "إنعاش",
-    "removeTab": "حذف"
+    "removeTab": "حذف",
+    "invidiousPreferences": {
+      "invidiousPreferences": "تفضيلات إنفيديوس"
+    }
   },
   "errors": {
     "networkConnectionError": "خطأ في الإتصال بالشبكة"
