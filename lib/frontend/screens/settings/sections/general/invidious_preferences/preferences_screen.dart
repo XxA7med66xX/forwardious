@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:forwardious/frontend/modules/custom_flat_button.dart';
+import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/audio_mode.dart';
 import 'package:forwardious/i18n/strings.g.dart';
 
 class InvidiousPreferencesScreen extends StatelessWidget {
@@ -11,6 +12,7 @@ class InvidiousPreferencesScreen extends StatelessWidget {
       body: Column(
         children: [
           CustomAppbar(),
+          AudioMode(),
         ],
       ),
     );

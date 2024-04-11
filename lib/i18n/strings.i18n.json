@@ -30,7 +30,9 @@
     "updateTab": "Update",
     "removeTab": "Delete",
     "invidiousPreferences": {
-      "invidiousPreferences": "Invidious preferences"
+      "invidiousPreferences": "Invidious preferences",
+      "audioMode": "Audio mode",
+      "audioModeSubtitle": "Play videos as audio only"
     }
   },
   "errors": {

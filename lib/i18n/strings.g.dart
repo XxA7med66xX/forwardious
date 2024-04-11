@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 50 (25 per locale)
+/// Strings: 54 (27 per locale)
 ///
-/// Built on 2024-04-11 at 10:59 UTC
+/// Built on 2024-04-11 at 13:56 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -233,6 +233,8 @@ class _StringsSettingsScreenInvidiousPreferencesEn {
 
 	// Translations
 	String get invidiousPreferences => 'Invidious preferences';
+	String get audioMode => 'Audio mode';
+	String get audioModeSubtitle => 'Play videos as audio only';
 }
 
 // Path: <root>
@@ -344,6 +346,8 @@ class _StringsSettingsScreenInvidiousPreferencesAr implements _StringsSettingsSc
 
 	// Translations
 	@override String get invidiousPreferences => 'تفضيلات إنفيديوس';
+	@override String get audioMode => 'وضع الصوت';
+	@override String get audioModeSubtitle => 'تشغيل الفيديوهات كصوت فقط';
 }
 
 /// Flat map(s) containing all translations.
@@ -376,6 +380,8 @@ extension on Translations {
 			case 'settingsScreen.updateTab': return 'Update';
 			case 'settingsScreen.removeTab': return 'Delete';
 			case 'settingsScreen.invidiousPreferences.invidiousPreferences': return 'Invidious preferences';
+			case 'settingsScreen.invidiousPreferences.audioMode': return 'Audio mode';
+			case 'settingsScreen.invidiousPreferences.audioModeSubtitle': return 'Play videos as audio only';
 			case 'errors.networkConnectionError': return 'Network connection error';
 			default: return null;
 		}
@@ -409,6 +415,8 @@ extension on _StringsAr {
 			case 'settingsScreen.updateTab': return 'إنعاش';
 			case 'settingsScreen.removeTab': return 'حذف';
 			case 'settingsScreen.invidiousPreferences.invidiousPreferences': return 'تفضيلات إنفيديوس';
+			case 'settingsScreen.invidiousPreferences.audioMode': return 'وضع الصوت';
+			case 'settingsScreen.invidiousPreferences.audioModeSubtitle': return 'تشغيل الفيديوهات كصوت فقط';
 			case 'errors.networkConnectionError': return 'خطأ في الإتصال بالشبكة';
 			default: return null;
 		}
