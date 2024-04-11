@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:forwardious/backend/bloc/cubit/chrome_settings/tab_behaviour_cubit.dart';
+import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/audio_mode_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/language_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/theme_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/radio_button_cubit.dart';
@@ -39,6 +40,7 @@ class MainApp extends StatelessWidget {
         BlocProvider(create: (context) => ThemeCubit(prefs)),
         BlocProvider(create: (context) => LanguageCubit(prefs)),
         BlocProvider(create: (context) => TabRefreshCubit(prefs)),
+        BlocProvider(create: (context) => AudioModeCubit(prefs)),
       ],
       child: BlocBuilder<ThemeCubit, bool>(
         builder: (context, state) {

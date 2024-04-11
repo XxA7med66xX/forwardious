@@ -1,8 +1,10 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:forwardious/backend/bloc/cubit/radio_button_cubit.dart';
+import 'package:forwardious/backend/chrome_api/cookies/cookies.dart';
 import 'package:forwardious/backend/extensions.dart';
-// import 'package:forwardious/backend/chrome_api/storage.dart';
+import 'package:forwardious/backend/invidious/preferences.dart';
 import 'package:forwardious/frontend/modules/data_table.dart';
 import 'package:forwardious/i18n/strings.g.dart';
 
@@ -35,7 +37,9 @@ class ExpanstionList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     final radioButtonCubit = context.watch<SelectInstanceRadioButtonCubit>();
+    final prefs = radioButtonCubit.invCubit.prefs;
 
     return Row(
       children: [
@@ -86,6 +90,15 @@ class ExpanstionList extends StatelessWidget {
 
               //Save the selected 
               radioButtonCubit.invCubit.currentInstance(value.toString());
+
+              ChromeCookies.override(
+                //The name of the invidious cookies.
+                'PREFS',
+                //The targeted URL is the preferences URL of the current instance.
+                '${prefs.getString('currentInstance')!}/preferences',
+                //The preferences are encoded to JSON and then URL-encoded.
+                Uri.encodeComponent(jsonEncode(InvidiousPreferences.preferences(prefs))),
+              );
             },
           ),
         ),

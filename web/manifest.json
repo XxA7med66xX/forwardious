@@ -5,8 +5,12 @@
     "manifest_version": 3,
     "permissions": [
         "tabs",
-        "storage"
+        "storage",
+        "cookies"
       ],
+    "host_permissions": [
+        "<all_urls>"
+      ],  
     "content_security_policy": {
         "extension_pages": "script-src 'self' ; object-src 'self'"
     },

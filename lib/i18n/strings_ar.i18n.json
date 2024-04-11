@@ -30,7 +30,9 @@
     "updateTab": "إنعاش",
     "removeTab": "حذف",
     "invidiousPreferences": {
-      "invidiousPreferences": "تفضيلات إنفيديوس"
+      "invidiousPreferences": "تفضيلات إنفيديوس",
+      "audioMode": "وضع الصوت",
+      "audioModeSubtitle": "تشغيل الفيديوهات كصوت فقط"
     }
   },
   "errors": {
