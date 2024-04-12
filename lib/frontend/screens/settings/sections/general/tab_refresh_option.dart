@@ -27,10 +27,10 @@ class TabRefreshOption extends StatelessWidget {
             //background.dart.js file.
             onSelected: (value) {
               if (value == 'RemoveTab') {
-                ChromeStorage.save({'tabMode': true});
+                ChromeStorage.save({'deleteTab': true});
                 context.read<TabRefreshCubit>().removeTab();
               } else {
-                ChromeStorage.save({'tabMode': false});
+                ChromeStorage.save({'deleteTab': false});
                 context.read<TabRefreshCubit>().updateTab();
               }
             },

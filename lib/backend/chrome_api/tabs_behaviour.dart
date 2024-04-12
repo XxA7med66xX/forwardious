@@ -19,9 +19,10 @@ class TabsBehaviour {
     currentInstance = await chrome.storage.local
         .get('currentInstance')
         .then((value) => value['currentInstance']);
+        
     deleteTab = await chrome.storage.local
-        .get('tabMode')
-        .then((value) => value['tabMode']);
+        .get('deleteTab')
+        .then((value) => value['deleteTab']) ?? false;
   }
 
   Future<void> behaviour() async {
