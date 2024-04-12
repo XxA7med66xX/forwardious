@@ -32,7 +32,9 @@
     "invidiousPreferences": {
       "invidiousPreferences": "تفضيلات إنفيديوس",
       "audioMode": "وضع الصوت",
-      "audioModeSubtitle": "تشغيل الفيديوهات كصوت فقط"
+      "audioModeSubtitle": "تشغيل الفيديوهات كصوت فقط",
+      "videoQuality": "جودة الفيديو",
+      "videoQualitySubtitle": "جودة الفيديو الإفتراضية"
     }
   },
   "errors": {
