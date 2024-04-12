@@ -7,13 +7,12 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class InvidiousPreferences {
 
-  final SharedPreferences prefs;
-
-  InvidiousPreferences({required this.prefs});
+  InvidiousPreferences();
 
   static Map<String, dynamic> preferences(SharedPreferences prefs) {
     Map<String, dynamic> config = {
       "listen": prefs.getBool('audioMode') ?? false,
+      "quality": prefs.getString('videoQuality') ?? 'dash'
     };
     return config;
   }

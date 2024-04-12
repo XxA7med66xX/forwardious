@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 54 (27 per locale)
+/// Strings: 58 (29 per locale)
 ///
-/// Built on 2024-04-11 at 13:56 UTC
+/// Built on 2024-04-12 at 06:52 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -235,6 +235,8 @@ class _StringsSettingsScreenInvidiousPreferencesEn {
 	String get invidiousPreferences => 'Invidious preferences';
 	String get audioMode => 'Audio mode';
 	String get audioModeSubtitle => 'Play videos as audio only';
+	String get videoQuality => 'Video quality';
+	String get videoQualitySubtitle => 'The default video quality';
 }
 
 // Path: <root>
@@ -348,6 +350,8 @@ class _StringsSettingsScreenInvidiousPreferencesAr implements _StringsSettingsSc
 	@override String get invidiousPreferences => 'تفضيلات إنفيديوس';
 	@override String get audioMode => 'وضع الصوت';
 	@override String get audioModeSubtitle => 'تشغيل الفيديوهات كصوت فقط';
+	@override String get videoQuality => 'جودة الفيديو';
+	@override String get videoQualitySubtitle => 'جودة الفيديو الإفتراضية';
 }
 
 /// Flat map(s) containing all translations.
@@ -382,6 +386,8 @@ extension on Translations {
 			case 'settingsScreen.invidiousPreferences.invidiousPreferences': return 'Invidious preferences';
 			case 'settingsScreen.invidiousPreferences.audioMode': return 'Audio mode';
 			case 'settingsScreen.invidiousPreferences.audioModeSubtitle': return 'Play videos as audio only';
+			case 'settingsScreen.invidiousPreferences.videoQuality': return 'Video quality';
+			case 'settingsScreen.invidiousPreferences.videoQualitySubtitle': return 'The default video quality';
 			case 'errors.networkConnectionError': return 'Network connection error';
 			default: return null;
 		}
@@ -417,6 +423,8 @@ extension on _StringsAr {
 			case 'settingsScreen.invidiousPreferences.invidiousPreferences': return 'تفضيلات إنفيديوس';
 			case 'settingsScreen.invidiousPreferences.audioMode': return 'وضع الصوت';
 			case 'settingsScreen.invidiousPreferences.audioModeSubtitle': return 'تشغيل الفيديوهات كصوت فقط';
+			case 'settingsScreen.invidiousPreferences.videoQuality': return 'جودة الفيديو';
+			case 'settingsScreen.invidiousPreferences.videoQualitySubtitle': return 'جودة الفيديو الإفتراضية';
 			case 'errors.networkConnectionError': return 'خطأ في الإتصال بالشبكة';
 			default: return null;
 		}

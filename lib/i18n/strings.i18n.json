@@ -32,7 +32,9 @@
     "invidiousPreferences": {
       "invidiousPreferences": "Invidious preferences",
       "audioMode": "Audio mode",
-      "audioModeSubtitle": "Play videos as audio only"
+      "audioModeSubtitle": "Play videos as audio only",
+      "videoQuality": "Video quality",
+      "videoQualitySubtitle": "The default video quality"
     }
   },
   "errors": {
