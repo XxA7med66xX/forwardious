@@ -8,10 +8,8 @@ main() async {
   //Open popup of the extention once you
   //install it to load the api of invidious
   //and set first instance of invidious as 
-  //default instance, and Set defualt tab
-  //mode to update.
+  //default instance.
   chrome.runtime.onInstalled.listen((event) {
-    chrome.storage.local.set({'tabMode': false});
     chrome.action.openPopup(OpenPopupOptions());
   });
   
