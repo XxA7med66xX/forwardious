@@ -12,7 +12,8 @@ class InvidiousPreferences {
   static Map<String, dynamic> preferences(SharedPreferences prefs) {
     Map<String, dynamic> config = {
       "listen": prefs.getBool('audioMode') ?? false,
-      "quality": prefs.getString('videoQuality') ?? 'dash'
+      "quality": prefs.getString('videoQuality') ?? 'dash',
+      "locale": prefs.getString('InstanceLocaleCode') ?? 'en-US'
     };
     return config;
   }
