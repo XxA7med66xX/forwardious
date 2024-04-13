@@ -10,6 +10,10 @@ To debug the app's UI, follow these steps:
      - Comment line 1: `import 'package:chrome_extension/storage.dart'`
      - Comment line 11: `chrome.storage.local.set(items);`
 
+   - In the file located at "lib/backend/chrome_api/cookies/cookies.dart":
+     - Comment line 1: `import 'package:chrome_extension/cookies.dart'`
+     - Comment line 9: `chrome.cookies.set(SetDetails(url: url, name: name, value: value));`  
+
 2. `flutter pub get`
 
 3. Specify the platform on which you would like to debug the UI:
