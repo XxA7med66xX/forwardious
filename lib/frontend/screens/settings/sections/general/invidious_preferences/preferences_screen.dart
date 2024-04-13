@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:forwardious/frontend/modules/custom_flat_button.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/audio_mode.dart';
+import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/instance_locale.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/video_quality.dart';
 import 'package:forwardious/i18n/strings.g.dart';
 
@@ -14,7 +15,8 @@ class InvidiousPreferencesScreen extends StatelessWidget {
         children: [
           CustomAppbar(),
           AudioMode(),
-          VideoQuality()
+          VideoQuality(),
+          InstanceLocale()
         ],
       ),
     );

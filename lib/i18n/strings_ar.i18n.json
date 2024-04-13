@@ -34,7 +34,8 @@
       "audioMode": "وضع الصوت",
       "audioModeSubtitle": "تشغيل الفيديوهات كصوت فقط",
       "videoQuality": "جودة الفيديو",
-      "videoQualitySubtitle": "جودة الفيديو الإفتراضية"
+      "videoQualitySubtitle": "جودة الفيديو الإفتراضية",
+      "interfaceLocale": "لغة واجهة المستنسخ"
     }
   },
   "errors": {

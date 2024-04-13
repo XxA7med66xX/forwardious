@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 58 (29 per locale)
+/// Strings: 60 (30 per locale)
 ///
-/// Built on 2024-04-12 at 06:52 UTC
+/// Built on 2024-04-13 at 05:54 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -237,6 +237,7 @@ class _StringsSettingsScreenInvidiousPreferencesEn {
 	String get audioModeSubtitle => 'Play videos as audio only';
 	String get videoQuality => 'Video quality';
 	String get videoQualitySubtitle => 'The default video quality';
+	String get interfaceLocale => 'Interface language';
 }
 
 // Path: <root>
@@ -352,6 +353,7 @@ class _StringsSettingsScreenInvidiousPreferencesAr implements _StringsSettingsSc
 	@override String get audioModeSubtitle => 'تشغيل الفيديوهات كصوت فقط';
 	@override String get videoQuality => 'جودة الفيديو';
 	@override String get videoQualitySubtitle => 'جودة الفيديو الإفتراضية';
+	@override String get interfaceLocale => 'لغة واجهة المستنسخ';
 }
 
 /// Flat map(s) containing all translations.
@@ -388,6 +390,7 @@ extension on Translations {
 			case 'settingsScreen.invidiousPreferences.audioModeSubtitle': return 'Play videos as audio only';
 			case 'settingsScreen.invidiousPreferences.videoQuality': return 'Video quality';
 			case 'settingsScreen.invidiousPreferences.videoQualitySubtitle': return 'The default video quality';
+			case 'settingsScreen.invidiousPreferences.interfaceLocale': return 'Interface language';
 			case 'errors.networkConnectionError': return 'Network connection error';
 			default: return null;
 		}
@@ -425,6 +428,7 @@ extension on _StringsAr {
 			case 'settingsScreen.invidiousPreferences.audioModeSubtitle': return 'تشغيل الفيديوهات كصوت فقط';
 			case 'settingsScreen.invidiousPreferences.videoQuality': return 'جودة الفيديو';
 			case 'settingsScreen.invidiousPreferences.videoQualitySubtitle': return 'جودة الفيديو الإفتراضية';
+			case 'settingsScreen.invidiousPreferences.interfaceLocale': return 'لغة واجهة المستنسخ';
 			case 'errors.networkConnectionError': return 'خطأ في الإتصال بالشبكة';
 			default: return null;
 		}
