@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 60 (30 per locale)
+/// Strings: 70 (35 per locale)
 ///
-/// Built on 2024-04-13 at 05:54 UTC
+/// Built on 2024-04-14 at 16:14 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -238,6 +238,21 @@ class _StringsSettingsScreenInvidiousPreferencesEn {
 	String get videoQuality => 'Video quality';
 	String get videoQualitySubtitle => 'The default video quality';
 	String get interfaceLocale => 'Interface language';
+	late final _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsEn defaultCaptions = _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsEn._(_root);
+}
+
+// Path: settingsScreen.invidiousPreferences.defaultCaptions
+class _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsEn {
+	_StringsSettingsScreenInvidiousPreferencesDefaultCaptionsEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+	String get defaultCaptions => 'Default captions';
+	String get none => 'none';
+	String get first => 'The first';
+	String get second => 'The second';
+	String get third => 'The third';
 }
 
 // Path: <root>
@@ -354,6 +369,21 @@ class _StringsSettingsScreenInvidiousPreferencesAr implements _StringsSettingsSc
 	@override String get videoQuality => 'جودة الفيديو';
 	@override String get videoQualitySubtitle => 'جودة الفيديو الإفتراضية';
 	@override String get interfaceLocale => 'لغة واجهة المستنسخ';
+	@override late final _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsAr defaultCaptions = _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsAr._(_root);
+}
+
+// Path: settingsScreen.invidiousPreferences.defaultCaptions
+class _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsAr implements _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsEn {
+	_StringsSettingsScreenInvidiousPreferencesDefaultCaptionsAr._(this._root);
+
+	@override final _StringsAr _root; // ignore: unused_field
+
+	// Translations
+	@override String get defaultCaptions => 'التسميات التوضيحية الإفتراضية';
+	@override String get none => 'لاشي';
+	@override String get first => 'الأولى';
+	@override String get second => 'الثانية';
+	@override String get third => 'الثالثة';
 }
 
 /// Flat map(s) containing all translations.
@@ -391,6 +421,11 @@ extension on Translations {
 			case 'settingsScreen.invidiousPreferences.videoQuality': return 'Video quality';
 			case 'settingsScreen.invidiousPreferences.videoQualitySubtitle': return 'The default video quality';
 			case 'settingsScreen.invidiousPreferences.interfaceLocale': return 'Interface language';
+			case 'settingsScreen.invidiousPreferences.defaultCaptions.defaultCaptions': return 'Default captions';
+			case 'settingsScreen.invidiousPreferences.defaultCaptions.none': return 'none';
+			case 'settingsScreen.invidiousPreferences.defaultCaptions.first': return 'The first';
+			case 'settingsScreen.invidiousPreferences.defaultCaptions.second': return 'The second';
+			case 'settingsScreen.invidiousPreferences.defaultCaptions.third': return 'The third';
 			case 'errors.networkConnectionError': return 'Network connection error';
 			default: return null;
 		}
@@ -429,6 +464,11 @@ extension on _StringsAr {
 			case 'settingsScreen.invidiousPreferences.videoQuality': return 'جودة الفيديو';
 			case 'settingsScreen.invidiousPreferences.videoQualitySubtitle': return 'جودة الفيديو الإفتراضية';
 			case 'settingsScreen.invidiousPreferences.interfaceLocale': return 'لغة واجهة المستنسخ';
+			case 'settingsScreen.invidiousPreferences.defaultCaptions.defaultCaptions': return 'التسميات التوضيحية الإفتراضية';
+			case 'settingsScreen.invidiousPreferences.defaultCaptions.none': return 'لاشي';
+			case 'settingsScreen.invidiousPreferences.defaultCaptions.first': return 'الأولى';
+			case 'settingsScreen.invidiousPreferences.defaultCaptions.second': return 'الثانية';
+			case 'settingsScreen.invidiousPreferences.defaultCaptions.third': return 'الثالثة';
 			case 'errors.networkConnectionError': return 'خطأ في الإتصال بالشبكة';
 			default: return null;
 		}

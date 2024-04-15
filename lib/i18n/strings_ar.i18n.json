@@ -35,7 +35,14 @@
       "audioModeSubtitle": "تشغيل الفيديوهات كصوت فقط",
       "videoQuality": "جودة الفيديو",
       "videoQualitySubtitle": "جودة الفيديو الإفتراضية",
-      "interfaceLocale": "لغة واجهة المستنسخ"
+      "interfaceLocale": "لغة واجهة المستنسخ",
+      "defaultCaptions": {
+        "defaultCaptions": "التسميات التوضيحية الإفتراضية",
+        "none": "لاشي",
+        "first": "الأولى",
+        "second": "الثانية",
+        "third": "الثالثة"
+      }
     }
   },
   "errors": {
