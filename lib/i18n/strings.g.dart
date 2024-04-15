@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 82 (41 per locale)
+/// Strings: 86 (43 per locale)
 ///
-/// Built on 2024-04-15 at 15:18 UTC
+/// Built on 2024-04-15 at 19:45 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -245,6 +245,8 @@ class _StringsSettingsScreenInvidiousPreferencesEn {
 	String get autoPlaySubtitle => 'Play videos automatically';
 	String get alwaysLoop => 'Always loop';
 	String get alwaysLoopSubtitle => 'Replay video when it ends';
+	String get playNext => 'Play next';
+	String get playNextSubtitle => 'After video ends it loads next';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -382,6 +384,8 @@ class _StringsSettingsScreenInvidiousPreferencesAr implements _StringsSettingsSc
 	@override String get autoPlaySubtitle => 'تشغيل الفيديوهات تلقائياً';
 	@override String get alwaysLoop => 'تكرر دائماً';
 	@override String get alwaysLoopSubtitle => 'عند إنتهاء الفيديو كرره';
+	@override String get playNext => 'تشغيل التالي';
+	@override String get playNextSubtitle => 'عند إنتهاء الفيديو يشغل التالي';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -442,6 +446,8 @@ extension on Translations {
 			case 'settingsScreen.invidiousPreferences.autoPlaySubtitle': return 'Play videos automatically';
 			case 'settingsScreen.invidiousPreferences.alwaysLoop': return 'Always loop';
 			case 'settingsScreen.invidiousPreferences.alwaysLoopSubtitle': return 'Replay video when it ends';
+			case 'settingsScreen.invidiousPreferences.playNext': return 'Play next';
+			case 'settingsScreen.invidiousPreferences.playNextSubtitle': return 'After video ends it loads next';
 			case 'settingsScreen.Main': return 'Main';
 			case 'settingsScreen.other': return 'Other';
 			case 'errors.networkConnectionError': return 'Network connection error';
@@ -491,6 +497,8 @@ extension on _StringsAr {
 			case 'settingsScreen.invidiousPreferences.autoPlaySubtitle': return 'تشغيل الفيديوهات تلقائياً';
 			case 'settingsScreen.invidiousPreferences.alwaysLoop': return 'تكرر دائماً';
 			case 'settingsScreen.invidiousPreferences.alwaysLoopSubtitle': return 'عند إنتهاء الفيديو كرره';
+			case 'settingsScreen.invidiousPreferences.playNext': return 'تشغيل التالي';
+			case 'settingsScreen.invidiousPreferences.playNextSubtitle': return 'عند إنتهاء الفيديو يشغل التالي';
 			case 'settingsScreen.Main': return 'الرئيسية';
 			case 'settingsScreen.other': return 'أُخرى';
 			case 'errors.networkConnectionError': return 'خطأ في الإتصال بالشبكة';

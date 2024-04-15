@@ -17,6 +17,7 @@ class InvidiousPreferences {
       "captions": prefs.getStringList('captions') ?? ["","",""],
       "autoplay": prefs.getBool('autoPlay') ?? false,
       "video_loop": prefs.getBool('alwaysLoop') ?? false,
+      "continue": prefs.getBool('playNext') ?? false,
     };
     return config;
   }
