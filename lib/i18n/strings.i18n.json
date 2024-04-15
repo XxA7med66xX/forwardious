@@ -48,7 +48,9 @@
       "alwaysLoop": "Always loop",
       "alwaysLoopSubtitle": "Replay video when it ends",
       "playNext": "Play next",
-      "playNextSubtitle": "After video ends it loads next"
+      "playNextSubtitle": "After video ends it loads next",
+      "thinMode": "Thin mode",
+      "thinModeSubtitle": "Don't include pictures in page load"
     },
     "Main": "Main",
     "other": "Other"

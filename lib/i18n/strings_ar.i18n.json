@@ -48,7 +48,9 @@
       "alwaysLoop": "تكرر دائماً",
       "alwaysLoopSubtitle": "عند إنتهاء الفيديو كرره",
       "playNext": "تشغيل التالي",
-      "playNextSubtitle": "عند إنتهاء الفيديو يشغل التالي"
+      "playNextSubtitle": "عند إنتهاء الفيديو يشغل التالي",
+      "thinMode": "الوضع الخفيف",
+      "thinModeSubtitle": "عدم إرفاق الصور أثناء تحميل الصفحة"
     },
     "Main": "الرئيسية",
     "other": "أُخرى"
