@@ -35,7 +35,14 @@
       "audioModeSubtitle": "Play videos as audio only",
       "videoQuality": "Video quality",
       "videoQualitySubtitle": "The default video quality",
-      "interfaceLocale": "Interface language"
+      "interfaceLocale": "Interface language",
+      "defaultCaptions": {
+        "defaultCaptions": "Default captions",
+        "none": "none",
+        "first": "The first",
+        "second": "The second",
+        "third": "The third"
+      }
     }
   },
   "errors": {

@@ -13,7 +13,8 @@ class InvidiousPreferences {
     Map<String, dynamic> config = {
       "listen": prefs.getBool('audioMode') ?? false,
       "quality": prefs.getString('videoQuality') ?? 'dash',
-      "locale": prefs.getString('InstanceLocaleCode') ?? 'en-US'
+      "locale": prefs.getString('InstanceLocaleCode') ?? 'en-US',
+      "captions":prefs.getStringList('captions') ?? ["","",""]
     };
     return config;
   }

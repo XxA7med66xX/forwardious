@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:forwardious/backend/bloc/cubit/chrome_settings/tab_behaviour_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/audio_mode_cubit.dart';
+import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/default_captions_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/instance_language_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/video_quality_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/language_cubit.dart';
@@ -45,6 +46,7 @@ class MainApp extends StatelessWidget {
         BlocProvider(create: (context) => AudioModeCubit(prefs)),
         BlocProvider(create: (context) => VideoQualityCubit(prefs)),
         BlocProvider(create: (context) => InstanceLanguageCubit(prefs)),
+        BlocProvider(create: (context) => DefaultCaptionsCubit(prefs)),
       ],
       child: BlocBuilder<ThemeCubit, bool>(
         builder: (context, state) {
