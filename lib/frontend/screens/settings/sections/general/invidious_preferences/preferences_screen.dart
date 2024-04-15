@@ -7,6 +7,7 @@ import 'package:forwardious/frontend/screens/settings/sections/general/invidious
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/default_captions/default_captions.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/instance_locale.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/play_next.dart';
+import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/thin_mode.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/video_quality.dart';
 import 'package:forwardious/i18n/strings.g.dart';
 
@@ -28,7 +29,8 @@ class InvidiousPreferencesScreen extends StatelessWidget {
             SectionTitle(title: context.t.settingsScreen.other),
             const AutoPlay(),
             const AlwaysLoop(),
-            const PlayNext()
+            const PlayNext(),
+            const ThinMode()
           ],
         ),
       ),

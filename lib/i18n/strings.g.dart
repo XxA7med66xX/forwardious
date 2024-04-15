@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 86 (43 per locale)
+/// Strings: 90 (45 per locale)
 ///
-/// Built on 2024-04-15 at 19:45 UTC
+/// Built on 2024-04-15 at 20:29 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -247,6 +247,8 @@ class _StringsSettingsScreenInvidiousPreferencesEn {
 	String get alwaysLoopSubtitle => 'Replay video when it ends';
 	String get playNext => 'Play next';
 	String get playNextSubtitle => 'After video ends it loads next';
+	String get thinMode => 'Thin mode';
+	String get thinModeSubtitle => 'Don\'t include pictures in page load';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -386,6 +388,8 @@ class _StringsSettingsScreenInvidiousPreferencesAr implements _StringsSettingsSc
 	@override String get alwaysLoopSubtitle => 'عند إنتهاء الفيديو كرره';
 	@override String get playNext => 'تشغيل التالي';
 	@override String get playNextSubtitle => 'عند إنتهاء الفيديو يشغل التالي';
+	@override String get thinMode => 'الوضع الخفيف';
+	@override String get thinModeSubtitle => 'عدم إرفاق الصورة أثناء تحميل الصفحة';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -448,6 +452,8 @@ extension on Translations {
 			case 'settingsScreen.invidiousPreferences.alwaysLoopSubtitle': return 'Replay video when it ends';
 			case 'settingsScreen.invidiousPreferences.playNext': return 'Play next';
 			case 'settingsScreen.invidiousPreferences.playNextSubtitle': return 'After video ends it loads next';
+			case 'settingsScreen.invidiousPreferences.thinMode': return 'Thin mode';
+			case 'settingsScreen.invidiousPreferences.thinModeSubtitle': return 'Don\'t include pictures in page load';
 			case 'settingsScreen.Main': return 'Main';
 			case 'settingsScreen.other': return 'Other';
 			case 'errors.networkConnectionError': return 'Network connection error';
@@ -499,6 +505,8 @@ extension on _StringsAr {
 			case 'settingsScreen.invidiousPreferences.alwaysLoopSubtitle': return 'عند إنتهاء الفيديو كرره';
 			case 'settingsScreen.invidiousPreferences.playNext': return 'تشغيل التالي';
 			case 'settingsScreen.invidiousPreferences.playNextSubtitle': return 'عند إنتهاء الفيديو يشغل التالي';
+			case 'settingsScreen.invidiousPreferences.thinMode': return 'الوضع الخفيف';
+			case 'settingsScreen.invidiousPreferences.thinModeSubtitle': return 'عدم إرفاق الصورة أثناء تحميل الصفحة';
 			case 'settingsScreen.Main': return 'الرئيسية';
 			case 'settingsScreen.other': return 'أُخرى';
 			case 'errors.networkConnectionError': return 'خطأ في الإتصال بالشبكة';
