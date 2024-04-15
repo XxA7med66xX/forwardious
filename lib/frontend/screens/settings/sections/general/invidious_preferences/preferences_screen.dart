@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:forwardious/frontend/modules/custom_flat_button.dart';
+import 'package:forwardious/frontend/modules/section_title.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/audio_mode.dart';
+import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/auto_play.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/default_captions/default_captions.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/instance_locale.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/video_quality.dart';
@@ -11,15 +13,18 @@ class InvidiousPreferencesScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: SingleChildScrollView(
         child: Column(
           children: [
-            CustomAppbar(),
-            AudioMode(),
-            VideoQuality(),
-            InstanceLocale(),
-            DefaultCaptions()
+            const CustomAppbar(),
+            SectionTitle(title: context.t.settingsScreen.Main),
+            const AudioMode(),
+            const VideoQuality(),
+            const InstanceLocale(),
+            const DefaultCaptions(),
+            SectionTitle(title: context.t.settingsScreen.other),
+            const AutoPlay(),
           ],
         ),
       ),

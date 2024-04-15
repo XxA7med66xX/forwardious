@@ -42,8 +42,12 @@
         "first": "The first",
         "second": "The second",
         "third": "The third"
-      }
-    }
+      },
+      "autoPlay": "Autoplay",
+      "autoPlaySubtitle": "Play videos automatically"
+    },
+    "Main": "Main",
+    "other": "Other"
   },
   "errors": {
     "networkConnectionError": "Network connection error"

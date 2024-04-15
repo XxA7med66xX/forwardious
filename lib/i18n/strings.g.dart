@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 70 (35 per locale)
+/// Strings: 78 (39 per locale)
 ///
-/// Built on 2024-04-14 at 16:14 UTC
+/// Built on 2024-04-15 at 09:57 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -200,6 +200,8 @@ class _StringsSettingsScreenEn {
 	String get updateTab => 'Update';
 	String get removeTab => 'Delete';
 	late final _StringsSettingsScreenInvidiousPreferencesEn invidiousPreferences = _StringsSettingsScreenInvidiousPreferencesEn._(_root);
+	String get Main => 'Main';
+	String get other => 'Other';
 }
 
 // Path: errors
@@ -239,6 +241,8 @@ class _StringsSettingsScreenInvidiousPreferencesEn {
 	String get videoQualitySubtitle => 'The default video quality';
 	String get interfaceLocale => 'Interface language';
 	late final _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsEn defaultCaptions = _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsEn._(_root);
+	String get autoPlay => 'Autoplay';
+	String get autoPlaySubtitle => 'Play videos automatically';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -331,6 +335,8 @@ class _StringsSettingsScreenAr implements _StringsSettingsScreenEn {
 	@override String get updateTab => 'إنعاش';
 	@override String get removeTab => 'حذف';
 	@override late final _StringsSettingsScreenInvidiousPreferencesAr invidiousPreferences = _StringsSettingsScreenInvidiousPreferencesAr._(_root);
+	@override String get Main => 'الرئيسية';
+	@override String get other => 'أُخرى';
 }
 
 // Path: errors
@@ -370,6 +376,8 @@ class _StringsSettingsScreenInvidiousPreferencesAr implements _StringsSettingsSc
 	@override String get videoQualitySubtitle => 'جودة الفيديو الإفتراضية';
 	@override String get interfaceLocale => 'لغة واجهة المستنسخ';
 	@override late final _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsAr defaultCaptions = _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsAr._(_root);
+	@override String get autoPlay => 'التشغيل التلقائي';
+	@override String get autoPlaySubtitle => 'تشغيل الفيديوهات تلقائياً';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -426,6 +434,10 @@ extension on Translations {
 			case 'settingsScreen.invidiousPreferences.defaultCaptions.first': return 'The first';
 			case 'settingsScreen.invidiousPreferences.defaultCaptions.second': return 'The second';
 			case 'settingsScreen.invidiousPreferences.defaultCaptions.third': return 'The third';
+			case 'settingsScreen.invidiousPreferences.autoPlay': return 'Autoplay';
+			case 'settingsScreen.invidiousPreferences.autoPlaySubtitle': return 'Play videos automatically';
+			case 'settingsScreen.Main': return 'Main';
+			case 'settingsScreen.other': return 'Other';
 			case 'errors.networkConnectionError': return 'Network connection error';
 			default: return null;
 		}
@@ -469,6 +481,10 @@ extension on _StringsAr {
 			case 'settingsScreen.invidiousPreferences.defaultCaptions.first': return 'الأولى';
 			case 'settingsScreen.invidiousPreferences.defaultCaptions.second': return 'الثانية';
 			case 'settingsScreen.invidiousPreferences.defaultCaptions.third': return 'الثالثة';
+			case 'settingsScreen.invidiousPreferences.autoPlay': return 'التشغيل التلقائي';
+			case 'settingsScreen.invidiousPreferences.autoPlaySubtitle': return 'تشغيل الفيديوهات تلقائياً';
+			case 'settingsScreen.Main': return 'الرئيسية';
+			case 'settingsScreen.other': return 'أُخرى';
 			case 'errors.networkConnectionError': return 'خطأ في الإتصال بالشبكة';
 			default: return null;
 		}
