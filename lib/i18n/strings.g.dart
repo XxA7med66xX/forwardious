@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 78 (39 per locale)
+/// Strings: 82 (41 per locale)
 ///
-/// Built on 2024-04-15 at 09:57 UTC
+/// Built on 2024-04-15 at 15:18 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -243,6 +243,8 @@ class _StringsSettingsScreenInvidiousPreferencesEn {
 	late final _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsEn defaultCaptions = _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsEn._(_root);
 	String get autoPlay => 'Autoplay';
 	String get autoPlaySubtitle => 'Play videos automatically';
+	String get alwaysLoop => 'Always loop';
+	String get alwaysLoopSubtitle => 'Replay video when it ends';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -378,6 +380,8 @@ class _StringsSettingsScreenInvidiousPreferencesAr implements _StringsSettingsSc
 	@override late final _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsAr defaultCaptions = _StringsSettingsScreenInvidiousPreferencesDefaultCaptionsAr._(_root);
 	@override String get autoPlay => 'التشغيل التلقائي';
 	@override String get autoPlaySubtitle => 'تشغيل الفيديوهات تلقائياً';
+	@override String get alwaysLoop => 'تكرر دائماً';
+	@override String get alwaysLoopSubtitle => 'عند إنتهاء الفيديو كرره';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -436,6 +440,8 @@ extension on Translations {
 			case 'settingsScreen.invidiousPreferences.defaultCaptions.third': return 'The third';
 			case 'settingsScreen.invidiousPreferences.autoPlay': return 'Autoplay';
 			case 'settingsScreen.invidiousPreferences.autoPlaySubtitle': return 'Play videos automatically';
+			case 'settingsScreen.invidiousPreferences.alwaysLoop': return 'Always loop';
+			case 'settingsScreen.invidiousPreferences.alwaysLoopSubtitle': return 'Replay video when it ends';
 			case 'settingsScreen.Main': return 'Main';
 			case 'settingsScreen.other': return 'Other';
 			case 'errors.networkConnectionError': return 'Network connection error';
@@ -483,6 +489,8 @@ extension on _StringsAr {
 			case 'settingsScreen.invidiousPreferences.defaultCaptions.third': return 'الثالثة';
 			case 'settingsScreen.invidiousPreferences.autoPlay': return 'التشغيل التلقائي';
 			case 'settingsScreen.invidiousPreferences.autoPlaySubtitle': return 'تشغيل الفيديوهات تلقائياً';
+			case 'settingsScreen.invidiousPreferences.alwaysLoop': return 'تكرر دائماً';
+			case 'settingsScreen.invidiousPreferences.alwaysLoopSubtitle': return 'عند إنتهاء الفيديو كرره';
 			case 'settingsScreen.Main': return 'الرئيسية';
 			case 'settingsScreen.other': return 'أُخرى';
 			case 'errors.networkConnectionError': return 'خطأ في الإتصال بالشبكة';

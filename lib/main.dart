@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:forwardious/backend/bloc/cubit/chrome_settings/tab_behaviour_cubit.dart';
+import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/always_loop_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/audio_mode_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/auto_play_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/default_captions_cubit.dart';
@@ -49,6 +50,7 @@ class MainApp extends StatelessWidget {
         BlocProvider(create: (context) => InstanceLanguageCubit(prefs)),
         BlocProvider(create: (context) => DefaultCaptionsCubit(prefs)),
         BlocProvider(create: (context) => AutoPlayCubit(prefs)),
+        BlocProvider(create: (context) => AlwaysLoopCubit(prefs)),
       ],
       child: BlocBuilder<ThemeCubit, bool>(
         builder: (context, state) {

@@ -44,7 +44,9 @@
         "third": "The third"
       },
       "autoPlay": "Autoplay",
-      "autoPlaySubtitle": "Play videos automatically"
+      "autoPlaySubtitle": "Play videos automatically",
+      "alwaysLoop": "Always loop",
+      "alwaysLoopSubtitle": "Replay video when it ends"
     },
     "Main": "Main",
     "other": "Other"

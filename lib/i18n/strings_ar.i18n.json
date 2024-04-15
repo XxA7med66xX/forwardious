@@ -44,7 +44,9 @@
         "third": "الثالثة"
       },
       "autoPlay": "التشغيل التلقائي",
-      "autoPlaySubtitle": "تشغيل الفيديوهات تلقائياً"
+      "autoPlaySubtitle": "تشغيل الفيديوهات تلقائياً",
+      "alwaysLoop": "تكرر دائماً",
+      "alwaysLoopSubtitle": "عند إنتهاء الفيديو كرره"
     },
     "Main": "الرئيسية",
     "other": "أُخرى"

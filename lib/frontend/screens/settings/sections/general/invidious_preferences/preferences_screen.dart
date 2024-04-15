@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:forwardious/frontend/modules/custom_flat_button.dart';
 import 'package:forwardious/frontend/modules/section_title.dart';
+import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/always_loop.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/audio_mode.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/auto_play.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/default_captions/default_captions.dart';
@@ -25,6 +26,7 @@ class InvidiousPreferencesScreen extends StatelessWidget {
             const DefaultCaptions(),
             SectionTitle(title: context.t.settingsScreen.other),
             const AutoPlay(),
+            const AlwaysLoop()
           ],
         ),
       ),
