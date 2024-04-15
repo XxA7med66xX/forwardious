@@ -46,7 +46,9 @@
       "autoPlay": "التشغيل التلقائي",
       "autoPlaySubtitle": "تشغيل الفيديوهات تلقائياً",
       "alwaysLoop": "تكرر دائماً",
-      "alwaysLoopSubtitle": "عند إنتهاء الفيديو كرره"
+      "alwaysLoopSubtitle": "عند إنتهاء الفيديو كرره",
+      "playNext": "تشغيل التالي",
+      "playNextSubtitle": "عند إنتهاء الفيديو يشغل التالي"
     },
     "Main": "الرئيسية",
     "other": "أُخرى"

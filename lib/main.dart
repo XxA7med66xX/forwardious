@@ -6,6 +6,7 @@ import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/audio_mode_c
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/auto_play_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/default_captions_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/instance_language_cubit.dart';
+import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/play_next_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/video_quality_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/language_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/theme_cubit.dart';
@@ -51,6 +52,7 @@ class MainApp extends StatelessWidget {
         BlocProvider(create: (context) => DefaultCaptionsCubit(prefs)),
         BlocProvider(create: (context) => AutoPlayCubit(prefs)),
         BlocProvider(create: (context) => AlwaysLoopCubit(prefs)),
+        BlocProvider(create: (context) => PlayNextCubit(prefs)),
       ],
       child: BlocBuilder<ThemeCubit, bool>(
         builder: (context, state) {
