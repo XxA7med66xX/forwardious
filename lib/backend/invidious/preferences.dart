@@ -15,7 +15,8 @@ class InvidiousPreferences {
       "quality": prefs.getString('videoQuality') ?? 'dash',
       "locale": prefs.getString('InstanceLocaleCode') ?? 'en-US',
       "captions": prefs.getStringList('captions') ?? ["","",""],
-      "autoplay": prefs.getBool('autoPlay') ?? false
+      "autoplay": prefs.getBool('autoPlay') ?? false,
+      "video_loop": prefs.getBool('alwaysLoop') ?? false,
     };
     return config;
   }
