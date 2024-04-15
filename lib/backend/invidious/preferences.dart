@@ -14,7 +14,8 @@ class InvidiousPreferences {
       "listen": prefs.getBool('audioMode') ?? false,
       "quality": prefs.getString('videoQuality') ?? 'dash',
       "locale": prefs.getString('InstanceLocaleCode') ?? 'en-US',
-      "captions":prefs.getStringList('captions') ?? ["","",""]
+      "captions": prefs.getStringList('captions') ?? ["","",""],
+      "autoplay": prefs.getBool('autoPlay') ?? false
     };
     return config;
   }

@@ -42,8 +42,12 @@
         "first": "الأولى",
         "second": "الثانية",
         "third": "الثالثة"
-      }
-    }
+      },
+      "autoPlay": "التشغيل التلقائي",
+      "autoPlaySubtitle": "تشغيل الفيديوهات تلقائياً"
+    },
+    "Main": "الرئيسية",
+    "other": "أُخرى"
   },
   "errors": {
     "networkConnectionError": "خطأ في الإتصال بالشبكة"
