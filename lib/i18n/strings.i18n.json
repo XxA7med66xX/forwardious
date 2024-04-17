@@ -52,7 +52,9 @@
       "thinMode": "Thin mode",
       "thinModeSubtitle": "Don't include pictures in page load",
       "volume": "Volume",
-      "volumeToolTip": "Default volume level"
+      "volumeToolTip": "Default volume level",
+      "speed": "Video speed",
+      "speedToolTip": "Default video speed"
     },
     "Main": "Main",
     "other": "Other"

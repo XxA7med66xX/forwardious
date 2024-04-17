@@ -20,6 +20,7 @@ class InvidiousPreferences {
       "continue": prefs.getBool('playNext') ?? false,
       "thin_mode": prefs.getBool('thinMode') ?? false,
       "volume": prefs.getInt('selectedVol') ?? 100,
+      "speed": prefs.getDouble('speedSliderValue') ?? 1.0,
     };
     return config;
   }
