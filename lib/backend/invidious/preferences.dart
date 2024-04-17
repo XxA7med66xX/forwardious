@@ -21,6 +21,7 @@ class InvidiousPreferences {
       "thin_mode": prefs.getBool('thinMode') ?? false,
       "volume": prefs.getInt('selectedVol') ?? 100,
       "speed": prefs.getDouble('speedSliderValue') ?? 1.0,
+      "player_style": prefs.getString('playerStyle') ?? 'invidious',
     };
     return config;
   }

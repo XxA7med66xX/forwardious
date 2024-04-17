@@ -54,7 +54,9 @@
       "volume": "مستوى الصوت",
       "volumeToolTip": "مستوى الصوت الإفتراضي",
       "speed": "سرعة الفيديو",
-      "speedToolTip": "السرعة الإفتراضية للفيديو"
+      "speedToolTip": "السرعة الإفتراضية للفيديو",
+      "playerStyle": "شكل المشغل",
+      "playerStyleSubtitle": "شكل إيطار الفيديو"
     },
     "Main": "الرئيسية",
     "other": "أُخرى"

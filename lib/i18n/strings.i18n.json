@@ -54,7 +54,9 @@
       "volume": "Volume",
       "volumeToolTip": "Default volume level",
       "speed": "Video speed",
-      "speedToolTip": "Default video speed"
+      "speedToolTip": "Default video speed",
+      "playerStyle": "Player style",
+      "playerStyleSubtitle": "Style of video border"
     },
     "Main": "Main",
     "other": "Other"
