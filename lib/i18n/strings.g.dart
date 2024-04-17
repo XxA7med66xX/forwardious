@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 94 (47 per locale)
+/// Strings: 98 (49 per locale)
 ///
-/// Built on 2024-04-17 at 09:35 UTC
+/// Built on 2024-04-17 at 18:43 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -251,6 +251,8 @@ class _StringsSettingsScreenInvidiousPreferencesEn {
 	String get thinModeSubtitle => 'Don\'t include pictures in page load';
 	String get volume => 'Volume';
 	String get volumeToolTip => 'Default volume level';
+	String get speed => 'Video speed';
+	String get speedToolTip => 'Default video speed';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -394,6 +396,8 @@ class _StringsSettingsScreenInvidiousPreferencesAr implements _StringsSettingsSc
 	@override String get thinModeSubtitle => 'عدم إرفاق الصور أثناء تحميل الصفحة';
 	@override String get volume => 'مستوى الصوت';
 	@override String get volumeToolTip => 'مستوى الصوت الإفتراضي';
+	@override String get speed => 'سرعة الفيديو';
+	@override String get speedToolTip => 'السرعة الإفتراضية للفيديو';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -460,6 +464,8 @@ extension on Translations {
 			case 'settingsScreen.invidiousPreferences.thinModeSubtitle': return 'Don\'t include pictures in page load';
 			case 'settingsScreen.invidiousPreferences.volume': return 'Volume';
 			case 'settingsScreen.invidiousPreferences.volumeToolTip': return 'Default volume level';
+			case 'settingsScreen.invidiousPreferences.speed': return 'Video speed';
+			case 'settingsScreen.invidiousPreferences.speedToolTip': return 'Default video speed';
 			case 'settingsScreen.Main': return 'Main';
 			case 'settingsScreen.other': return 'Other';
 			case 'errors.networkConnectionError': return 'Network connection error';
@@ -515,6 +521,8 @@ extension on _StringsAr {
 			case 'settingsScreen.invidiousPreferences.thinModeSubtitle': return 'عدم إرفاق الصور أثناء تحميل الصفحة';
 			case 'settingsScreen.invidiousPreferences.volume': return 'مستوى الصوت';
 			case 'settingsScreen.invidiousPreferences.volumeToolTip': return 'مستوى الصوت الإفتراضي';
+			case 'settingsScreen.invidiousPreferences.speed': return 'سرعة الفيديو';
+			case 'settingsScreen.invidiousPreferences.speedToolTip': return 'السرعة الإفتراضية للفيديو';
 			case 'settingsScreen.Main': return 'الرئيسية';
 			case 'settingsScreen.other': return 'أُخرى';
 			case 'errors.networkConnectionError': return 'خطأ في الإتصال بالشبكة';
