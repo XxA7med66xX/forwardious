@@ -50,7 +50,9 @@
       "playNext": "Play next",
       "playNextSubtitle": "After video ends it loads next",
       "thinMode": "Thin mode",
-      "thinModeSubtitle": "Don't include pictures in page load"
+      "thinModeSubtitle": "Don't include pictures in page load",
+      "volume": "Volume",
+      "volumeToolTip": "Default volume level"
     },
     "Main": "Main",
     "other": "Other"

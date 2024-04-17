@@ -13,8 +13,12 @@ class AppTheme {
     primaryColor: Colors.black,
 
     //Progress indicator theme
-    progressIndicatorTheme:
-        const ProgressIndicatorThemeData(color: Colors.black),
+    progressIndicatorTheme: const ProgressIndicatorThemeData(color: Colors.black),
+    
+    //Slider theme
+    sliderTheme: const SliderThemeData(
+      overlayColor: Colors.transparent,
+    )    
   );
 
   static final ThemeData darkMode = ThemeData.dark().copyWith(
@@ -32,7 +36,11 @@ class AppTheme {
     primaryColor: Colors.grey,
 
     //Progress indicator theme
-    progressIndicatorTheme:
-        const ProgressIndicatorThemeData(color: Colors.white),
+    progressIndicatorTheme: const ProgressIndicatorThemeData(color: Colors.white),
+
+    //Slider theme
+    sliderTheme: const SliderThemeData(
+      overlayColor: Colors.transparent,
+    )
   );
 }
