@@ -19,6 +19,7 @@ class InvidiousPreferences {
       "video_loop": prefs.getBool('alwaysLoop') ?? false,
       "continue": prefs.getBool('playNext') ?? false,
       "thin_mode": prefs.getBool('thinMode') ?? false,
+      "volume": prefs.getInt('selectedVol') ?? 100,
     };
     return config;
   }
