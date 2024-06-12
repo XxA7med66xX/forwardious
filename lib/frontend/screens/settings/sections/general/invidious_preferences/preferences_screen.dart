@@ -8,6 +8,7 @@ import 'package:forwardious/frontend/screens/settings/sections/general/invidious
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/instance_locale.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/play_next.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/player_style.dart';
+import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/related_videos.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/speed_slider.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/thin_mode.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/video_quality.dart';
@@ -37,6 +38,7 @@ class InvidiousPreferencesScreen extends StatelessWidget {
             const VolumeSlider(),
             const SpeedSlider(),
             const PlayerStyle(),
+            const ShowRelatedVideos(),
           ],
         ),
       ),

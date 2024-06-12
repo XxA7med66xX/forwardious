@@ -56,7 +56,8 @@
       "speed": "Video speed",
       "speedToolTip": "Default video speed",
       "playerStyle": "Player style",
-      "playerStyleSubtitle": "Style of video border"
+      "playerStyleSubtitle": "Style of video border",
+      "relatedVideos": "Show related videos"
     },
     "Main": "Main",
     "other": "Other"

@@ -17,14 +17,14 @@ class SwitchTile extends StatelessWidget {
   const SwitchTile.sub({
     super.key,
     required this.title,
-    required this.subtitle,
+    this.subtitle,
     required this.value,
     required this.onChanged,
     this.margin = const EdgeInsets.only(bottom: 20,left: 20,right: 20),
   });
 
   final String title;
-  final String subtitle;
+  final String? subtitle;
   final bool value;
   final Function(bool)? onChanged;
   final EdgeInsetsGeometry? margin;
@@ -38,7 +38,7 @@ class SwitchTile extends StatelessWidget {
       ),
       child: SwitchListTile(
         title: Text(title),
-        subtitle: Text(subtitle),
+        subtitle: subtitle != null ? Text(subtitle!) : null,
         value: value,
         onChanged: onChanged,
         hoverColor: Colors.transparent,
