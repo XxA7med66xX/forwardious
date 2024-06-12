@@ -10,7 +10,7 @@ class InvidiousPreferences {
   InvidiousPreferences();
 
   static Map<String, dynamic> preferences(SharedPreferences prefs) {
-    Map<String, dynamic> config = {
+    return {
       "listen": prefs.getBool('audioMode') ?? false,
       "quality": prefs.getString('videoQuality') ?? 'dash',
       "locale": prefs.getString('InstanceLocaleCode') ?? 'en-US',
@@ -22,8 +22,8 @@ class InvidiousPreferences {
       "volume": prefs.getInt('selectedVol') ?? 100,
       "speed": prefs.getDouble('speedSliderValue') ?? 1.0,
       "player_style": prefs.getString('playerStyle') ?? 'invidious',
+      "related_videos": prefs.getBool('relatedVideos') ?? true,
     };
-    return config;
   }
 
 }

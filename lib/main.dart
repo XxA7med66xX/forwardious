@@ -8,6 +8,7 @@ import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/default_capt
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/instance_language_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/play_next_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/player_style_cubit.dart';
+import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/show_related_vidoes_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/speed_slider_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/thin_mode_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/invidious/prefrences/video_quality_cubit.dart';
@@ -61,6 +62,7 @@ class MainApp extends StatelessWidget {
         BlocProvider(create: (context) => VolumeSliderCubit(prefs)),
         BlocProvider(create: (context) => SpeedSliderCubit(prefs)),
         BlocProvider(create: (context) => PlayerStyleCubit(prefs)),
+        BlocProvider(create: (context) => ShowRelatedVideosCubit(prefs)),
       ],
       child: BlocBuilder<ThemeCubit, bool>(
         builder: (context, state) {

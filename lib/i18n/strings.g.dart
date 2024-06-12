@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 102 (51 per locale)
+/// Strings: 104 (52 per locale)
 ///
-/// Built on 2024-04-17 at 20:25 UTC
+/// Built on 2024-06-12 at 14:10 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -255,6 +255,7 @@ class _StringsSettingsScreenInvidiousPreferencesEn {
 	String get speedToolTip => 'Default video speed';
 	String get playerStyle => 'Player style';
 	String get playerStyleSubtitle => 'Style of video border';
+	String get relatedVideos => 'Show related videos';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -402,6 +403,7 @@ class _StringsSettingsScreenInvidiousPreferencesAr implements _StringsSettingsSc
 	@override String get speedToolTip => 'السرعة الإفتراضية للفيديو';
 	@override String get playerStyle => 'شكل المشغل';
 	@override String get playerStyleSubtitle => 'شكل إيطار الفيديو';
+	@override String get relatedVideos => 'عرض الفيديوهات ذات صلة';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -472,6 +474,7 @@ extension on Translations {
 			case 'settingsScreen.invidiousPreferences.speedToolTip': return 'Default video speed';
 			case 'settingsScreen.invidiousPreferences.playerStyle': return 'Player style';
 			case 'settingsScreen.invidiousPreferences.playerStyleSubtitle': return 'Style of video border';
+			case 'settingsScreen.invidiousPreferences.relatedVideos': return 'Show related videos';
 			case 'settingsScreen.Main': return 'Main';
 			case 'settingsScreen.other': return 'Other';
 			case 'errors.networkConnectionError': return 'Network connection error';
@@ -531,6 +534,7 @@ extension on _StringsAr {
 			case 'settingsScreen.invidiousPreferences.speedToolTip': return 'السرعة الإفتراضية للفيديو';
 			case 'settingsScreen.invidiousPreferences.playerStyle': return 'شكل المشغل';
 			case 'settingsScreen.invidiousPreferences.playerStyleSubtitle': return 'شكل إيطار الفيديو';
+			case 'settingsScreen.invidiousPreferences.relatedVideos': return 'عرض الفيديوهات ذات صلة';
 			case 'settingsScreen.Main': return 'الرئيسية';
 			case 'settingsScreen.other': return 'أُخرى';
 			case 'errors.networkConnectionError': return 'خطأ في الإتصال بالشبكة';

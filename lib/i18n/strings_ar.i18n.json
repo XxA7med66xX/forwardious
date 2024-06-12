@@ -56,7 +56,8 @@
       "speed": "سرعة الفيديو",
       "speedToolTip": "السرعة الإفتراضية للفيديو",
       "playerStyle": "شكل المشغل",
-      "playerStyleSubtitle": "شكل إيطار الفيديو"
+      "playerStyleSubtitle": "شكل إيطار الفيديو",
+      "relatedVideos": "عرض الفيديوهات ذات صلة"
     },
     "Main": "الرئيسية",
     "other": "أُخرى"
