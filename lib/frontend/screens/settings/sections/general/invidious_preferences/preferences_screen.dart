@@ -4,6 +4,7 @@ import 'package:forwardious/frontend/modules/section_title.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/always_loop.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/audio_mode.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/auto_play.dart';
+import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/dark_mode.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/default_captions/default_captions.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/instance_locale.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/invidious_preferences/options/play_next.dart';
@@ -30,6 +31,7 @@ class InvidiousPreferencesScreen extends StatelessWidget {
             const VideoQuality(),
             const InstanceLocale(),
             const DefaultCaptions(),
+            const DarkMode(),
             SectionTitle(title: context.t.settingsScreen.other),
             const AutoPlay(),
             const AlwaysLoop(),

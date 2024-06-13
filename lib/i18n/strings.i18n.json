@@ -57,7 +57,8 @@
       "speedToolTip": "Default video speed",
       "playerStyle": "Player style",
       "playerStyleSubtitle": "Style of video border",
-      "relatedVideos": "Show related videos"
+      "relatedVideos": "Show related videos",
+      "darkMode": "Dark mode"
     },
     "Main": "Main",
     "other": "Other"

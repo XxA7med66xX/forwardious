@@ -23,6 +23,7 @@ class InvidiousPreferences {
       "speed": prefs.getDouble('speedSliderValue') ?? 1.0,
       "player_style": prefs.getString('playerStyle') ?? 'invidious',
       "related_videos": prefs.getBool('relatedVideos') ?? true,
+      "dark_mode": prefs.getBool('isDarkMode') ?? false,
     };
   }
 

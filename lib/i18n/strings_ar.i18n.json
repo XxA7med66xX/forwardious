@@ -57,7 +57,8 @@
       "speedToolTip": "السرعة الإفتراضية للفيديو",
       "playerStyle": "شكل المشغل",
       "playerStyleSubtitle": "شكل إيطار الفيديو",
-      "relatedVideos": "عرض الفيديوهات ذات صلة"
+      "relatedVideos": "عرض الفيديوهات ذات صلة",
+      "darkMode": "الوضع المظلم"
     },
     "Main": "الرئيسية",
     "other": "أُخرى"

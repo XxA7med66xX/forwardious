@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 104 (52 per locale)
+/// Strings: 106 (53 per locale)
 ///
-/// Built on 2024-06-12 at 14:10 UTC
+/// Built on 2024-06-13 at 05:32 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -256,6 +256,7 @@ class _StringsSettingsScreenInvidiousPreferencesEn {
 	String get playerStyle => 'Player style';
 	String get playerStyleSubtitle => 'Style of video border';
 	String get relatedVideos => 'Show related videos';
+	String get darkMode => 'Dark mode';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -404,6 +405,7 @@ class _StringsSettingsScreenInvidiousPreferencesAr implements _StringsSettingsSc
 	@override String get playerStyle => 'شكل المشغل';
 	@override String get playerStyleSubtitle => 'شكل إيطار الفيديو';
 	@override String get relatedVideos => 'عرض الفيديوهات ذات صلة';
+	@override String get darkMode => 'الوضع المظلم';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -475,6 +477,7 @@ extension on Translations {
 			case 'settingsScreen.invidiousPreferences.playerStyle': return 'Player style';
 			case 'settingsScreen.invidiousPreferences.playerStyleSubtitle': return 'Style of video border';
 			case 'settingsScreen.invidiousPreferences.relatedVideos': return 'Show related videos';
+			case 'settingsScreen.invidiousPreferences.darkMode': return 'Dark mode';
 			case 'settingsScreen.Main': return 'Main';
 			case 'settingsScreen.other': return 'Other';
 			case 'errors.networkConnectionError': return 'Network connection error';
@@ -535,6 +538,7 @@ extension on _StringsAr {
 			case 'settingsScreen.invidiousPreferences.playerStyle': return 'شكل المشغل';
 			case 'settingsScreen.invidiousPreferences.playerStyleSubtitle': return 'شكل إيطار الفيديو';
 			case 'settingsScreen.invidiousPreferences.relatedVideos': return 'عرض الفيديوهات ذات صلة';
+			case 'settingsScreen.invidiousPreferences.darkMode': return 'الوضع المظلم';
 			case 'settingsScreen.Main': return 'الرئيسية';
 			case 'settingsScreen.other': return 'أُخرى';
 			case 'errors.networkConnectionError': return 'خطأ في الإتصال بالشبكة';
