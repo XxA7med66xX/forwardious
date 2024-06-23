@@ -24,6 +24,7 @@ class InvidiousPreferences {
       "player_style": prefs.getString('playerStyle') ?? 'invidious',
       "related_videos": prefs.getBool('relatedVideos') ?? true,
       "dark_mode": prefs.getBool('isDarkMode') ?? false,
+      "default_home": prefs.getString('default_homepage_prefs') ?? 'Popular',
     };
   }
 
