@@ -58,7 +58,11 @@
       "playerStyle": "Player style",
       "playerStyleSubtitle": "Style of video border",
       "relatedVideos": "Show related videos",
-      "darkMode": "Dark mode"
+      "darkMode": "Dark mode",
+      "defaultHome": "Default home page",
+      "Search": "Search",
+      "Popular": "Popular",
+      "Trending": "Trending"
     },
     "Main": "Main",
     "other": "Other"

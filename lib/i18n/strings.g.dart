@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 106 (53 per locale)
+/// Strings: 114 (57 per locale)
 ///
-/// Built on 2024-06-13 at 05:32 UTC
+/// Built on 2024-06-13 at 11:20 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -257,6 +257,10 @@ class _StringsSettingsScreenInvidiousPreferencesEn {
 	String get playerStyleSubtitle => 'Style of video border';
 	String get relatedVideos => 'Show related videos';
 	String get darkMode => 'Dark mode';
+	String get defaultHome => 'Default home page';
+	String get Search => 'Search';
+	String get Popular => 'Popular';
+	String get Trending => 'Trending';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -406,6 +410,10 @@ class _StringsSettingsScreenInvidiousPreferencesAr implements _StringsSettingsSc
 	@override String get playerStyleSubtitle => 'شكل إيطار الفيديو';
 	@override String get relatedVideos => 'عرض الفيديوهات ذات صلة';
 	@override String get darkMode => 'الوضع المظلم';
+	@override String get defaultHome => 'الصفحة الرئيسية الإفتراضية';
+	@override String get Search => 'البحث';
+	@override String get Popular => 'الشائع';
+	@override String get Trending => 'الأكثر شعبية';
 }
 
 // Path: settingsScreen.invidiousPreferences.defaultCaptions
@@ -478,6 +486,10 @@ extension on Translations {
 			case 'settingsScreen.invidiousPreferences.playerStyleSubtitle': return 'Style of video border';
 			case 'settingsScreen.invidiousPreferences.relatedVideos': return 'Show related videos';
 			case 'settingsScreen.invidiousPreferences.darkMode': return 'Dark mode';
+			case 'settingsScreen.invidiousPreferences.defaultHome': return 'Default home page';
+			case 'settingsScreen.invidiousPreferences.Search': return 'Search';
+			case 'settingsScreen.invidiousPreferences.Popular': return 'Popular';
+			case 'settingsScreen.invidiousPreferences.Trending': return 'Trending';
 			case 'settingsScreen.Main': return 'Main';
 			case 'settingsScreen.other': return 'Other';
 			case 'errors.networkConnectionError': return 'Network connection error';
@@ -539,6 +551,10 @@ extension on _StringsAr {
 			case 'settingsScreen.invidiousPreferences.playerStyleSubtitle': return 'شكل إيطار الفيديو';
 			case 'settingsScreen.invidiousPreferences.relatedVideos': return 'عرض الفيديوهات ذات صلة';
 			case 'settingsScreen.invidiousPreferences.darkMode': return 'الوضع المظلم';
+			case 'settingsScreen.invidiousPreferences.defaultHome': return 'الصفحة الرئيسية الإفتراضية';
+			case 'settingsScreen.invidiousPreferences.Search': return 'البحث';
+			case 'settingsScreen.invidiousPreferences.Popular': return 'الشائع';
+			case 'settingsScreen.invidiousPreferences.Trending': return 'الأكثر شعبية';
 			case 'settingsScreen.Main': return 'الرئيسية';
 			case 'settingsScreen.other': return 'أُخرى';
 			case 'errors.networkConnectionError': return 'خطأ في الإتصال بالشبكة';

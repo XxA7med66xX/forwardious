@@ -58,7 +58,11 @@
       "playerStyle": "شكل المشغل",
       "playerStyleSubtitle": "شكل إيطار الفيديو",
       "relatedVideos": "عرض الفيديوهات ذات صلة",
-      "darkMode": "الوضع المظلم"
+      "darkMode": "الوضع المظلم",
+      "defaultHome": "الصفحة الرئيسية الإفتراضية",
+      "Search": "البحث",
+      "Popular": "الشائع",
+      "Trending": "الأكثر شعبية"
     },
     "Main": "الرئيسية",
     "other": "أُخرى"
