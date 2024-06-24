@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:forwardious/backend/bloc/cubit/chrome_settings/tab_behaviour_cubit.dart';
 import 'package:forwardious/backend/bloc/cubit/language_cubit.dart';
 import 'package:forwardious/frontend/modules/custom_flat_button.dart';
 import 'package:forwardious/i18n/strings.g.dart';
@@ -11,8 +10,6 @@ class SelectLanguageScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     
-    final tabRefreshCubit = BlocProvider.of<TabRefreshCubit>(context);
-
     return Scaffold(
       body: Column(
         children: [
@@ -48,14 +45,6 @@ class SelectLanguageScreen extends StatelessWidget {
                     //set language by it's code
                     context.read<LanguageCubit>().setLangugae(
                           AppLocaleUtils.supportedLocales[index].toString(),);
-
-                    //This part is to fix [PopupMenuButton] translations 
-                    //that are not updated after choosing a different language.
-                    if (tabRefreshCubit.selected == context.t.settingsScreen.removeTab) {
-                      tabRefreshCubit.removeTab();
-                    } else {
-                      tabRefreshCubit.updateTab();
-                    }
 
                     //After changing the language, this function
                     //changes the direction of the screen.
