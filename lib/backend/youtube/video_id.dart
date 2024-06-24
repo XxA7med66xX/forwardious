@@ -6,16 +6,16 @@ class VideoId {
   static final embedVideo = RegExp(r'youtube\..+?/embed/(.*?)(?:\?|&|/|$)');
   static final shortsVideo = RegExp(r'youtube\..+/shorts/(.*?)(?:\?|&|/|$)');
 
+  static List<RegExp> patterns = [
+    normalVideo,
+    shortVideo,
+    shortsVideo,
+    embedVideo
+  ];
+
   static String? getVideoId(String url) {
     
-    final List<RegExp> videoPatterns = [
-      normalVideo,
-      shortVideo,
-      shortsVideo,
-      embedVideo
-    ];
-
-    for (RegExp pattern in videoPatterns) {
+    for (RegExp pattern in patterns) {
       if (pattern.hasMatch(url)) {
         return pattern.firstMatch(url)!.group(1);
       }

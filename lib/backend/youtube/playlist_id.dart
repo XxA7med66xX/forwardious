@@ -5,17 +5,17 @@ class PlaylistId {
   static final singleVidPlaylist = RegExp(r'youtube\..+?/watch.*?list=(.*?)(?:&|/|$)');
   static final shortPlaylist = RegExp(r'youtu\.be/.*?/.*?list=(.*?)(?:&|/|$)');
   static final embedPlaylist = RegExp(r'youtube\..+?/embed/.*?/.*?list=(.*?)(?:&|/|$)');
-  
+
+  static List<RegExp> patterns = [
+    normalPlaylist,
+    singleVidPlaylist,
+    shortPlaylist,
+    embedPlaylist
+  ];
+
   static String? getPlaylistId(String url) {
 
-    final List<RegExp> playlistPatterns = [
-      normalPlaylist,
-      singleVidPlaylist,
-      shortPlaylist,
-      embedPlaylist
-    ];
-
-    for (RegExp pattern in playlistPatterns) {
+    for (RegExp pattern in patterns) {
       if (pattern.hasMatch(url)) {
         return pattern.firstMatch(url)!.group(1);
       }
