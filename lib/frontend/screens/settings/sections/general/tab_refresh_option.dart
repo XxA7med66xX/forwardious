@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:forwardious/backend/bloc/cubit/chrome_settings/tab_behaviour_cubit.dart';
-import 'package:forwardious/backend/chrome_api/storage/chrome_storage.dart';
+import 'package:forwardious/backend/bloc/cubit/chrome_settings/tab_refresh_cubit.dart';
 import 'package:forwardious/frontend/modules/option_card.dart';
 import 'package:forwardious/frontend/modules/popup_menu_button.dart';
 import 'package:forwardious/i18n/strings.g.dart';
@@ -11,44 +10,27 @@ class TabRefreshOption extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
+    final tabRefreshCubit = context.read<TabRefreshCubit>();
+    // Rebuild wordsMap to ensure getting the latest translations
+    tabRefreshCubit.buildWordMap(context);
+
     return OptionCard(
       title: Text(context.t.settingsScreen.tabRefreshBehaviour),
       subtitle: Text(context.t.settingsScreen.tabBehaviourWhenOpeningaYoutubeUrl),
       trailing: BlocBuilder<TabRefreshCubit, String>(
         builder: (context, state) {
           return PopupMenu(
-            initialValue: context.watch<TabRefreshCubit>().selected,
-            //When the value is ['RemoveTab'], it means that Chrome
-            //will remove the tab once you open a YouTube URL
-            //and create another tab with the Invidious instance.
-            //If the value is ['UpdateTab'],it will just update the current tab.
-            //I set the value as true in the Chrome storage using
-            //the Chrome API so that I can use these values in the
-            //background.dart.js file.
+            initialValue: context.watch<TabRefreshCubit>().selectedItem,
             onSelected: (value) {
-              if (value == 'RemoveTab') {
-                ChromeStorage.save({'deleteTab': true});
-                context.read<TabRefreshCubit>().removeTab();
-              } else {
-                ChromeStorage.save({'deleteTab': false});
-                context.read<TabRefreshCubit>().updateTab();
-              }
+              context.read<TabRefreshCubit>().selected(value);
             },
-
             itemBuilder: (context) {
-              return [
-                PopupMenuItem(
-                  value: 'RemoveTab',
-                  child: Text(t.settingsScreen.removeTab),
-                ),
-                PopupMenuItem(
-                  value: 'UpdateTab',
-                  child: Text(t.settingsScreen.updateTab),
-                ),
-              ];
+              return tabRefreshCubit.wordMap.entries.map((e) {
+                return PopupMenuItem(value: e.key,child: Text(e.value));
+              }).toList();
             },
-
-            selectedItem: context.watch<TabRefreshCubit>().selected!,
+            selectedItem: context.watch<TabRefreshCubit>().getSelectedValue(context),
           );
         },
       ),
