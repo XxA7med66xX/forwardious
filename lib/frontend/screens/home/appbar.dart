@@ -34,6 +34,7 @@ class CustomAppBar extends StatelessWidget {
           ),
         ),
         const Spacer(),
+        const SizedBox(width: 44,height: 44,)
       ],
     );
   }
