@@ -15,6 +15,7 @@ class UrlProcessing extends Video {
     ...VideoId.patterns,
     ...PlaylistId.patterns,
     ...ChannelId.patterns,
+    RegExp(r'^https://www.youtube\.com/?'),
   ];
 
     for (var pattern in patterns) {
