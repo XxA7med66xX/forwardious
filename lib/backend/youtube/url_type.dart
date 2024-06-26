@@ -23,7 +23,7 @@ class UrlType {
         default:
       }
     } else {
-      urlType = 'null';
+      urlType = '';
     }
     return urlType;
   }
