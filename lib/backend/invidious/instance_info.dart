@@ -19,7 +19,7 @@ class InvidiousInstanceInfo {
             flag: entry[1]?['flag'] ?? '',
             type: entry[1]?['type'] ?? '',
             signupSupport: entry[1]?['stats']?['openRegistrations']?.toString() ?? '-',
-            health: entry[1]['monitor']?['dailyRatios']?[0]['ratio'] ?? '',
+            health: entry[1]['monitor']?['uptime'].toString() ?? '',
           ),
         );
       }
