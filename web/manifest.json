@@ -17,8 +17,17 @@
     "background": {
         "service_worker": "background.dart.js"
     },
+    "icons": {
+    "128": "/icons/icon-128.png",
+    "256": "/icons/icon-256.png",
+    "512": "/icons/icon-512.png"
+    },
     "action": {
-        "default_popup": "index.html",
-        "default_icon": "/icons/Icon-512.png"
+      "default_popup": "index.html",
+      "default_icon": {
+        "128": "/icons/icon-128.png",
+        "256": "/icons/icon-256.png",
+        "512": "/icons/icon-512.png"
+      }
     }
 }
