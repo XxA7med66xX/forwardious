@@ -69,5 +69,8 @@
   },
   "errors": {
     "networkConnectionError": "Network connection error"
-  }
+  },
+  "About": "About",
+  "Close": "Close",
+  "Copyright": "All rights reserved"
 }

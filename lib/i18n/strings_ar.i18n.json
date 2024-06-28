@@ -69,5 +69,8 @@
   },
   "errors": {
     "networkConnectionError": "خطأ في الإتصال بالشبكة"
-  }
+  },
+  "About": "حول",
+  "Close": "إغلاق",
+  "Copyright": "جميع الحقوق محفوظة"
 }
