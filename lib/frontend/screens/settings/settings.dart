@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:forwardious/backend/bloc/cubit/language_cubit.dart';
+import 'package:forwardious/frontend/screens/about_screen.dart';
 import 'package:forwardious/frontend/screens/settings/appbar.dart';
 import 'package:forwardious/frontend/screens/settings/sections/general/general.dart';
 import 'package:forwardious/frontend/screens/settings/sections/language/language_settings.dart';
@@ -25,7 +26,8 @@ class SettingsScreen extends StatelessWidget {
                   SettingsAppbar(),
                   GeneralSettings(),
                   ThemeSettings(),
-                  LanguageSettings()
+                  LanguageSettings(),
+                  AboutScreen()
                 ],
               ),
             );

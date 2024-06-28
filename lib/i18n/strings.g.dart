@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 114 (57 per locale)
+/// Strings: 120 (60 per locale)
 ///
-/// Built on 2024-06-13 at 11:20 UTC
+/// Built on 2024-06-28 at 07:50 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -154,6 +154,9 @@ class Translations implements BaseTranslations<AppLocale, Translations> {
 	late final _StringsInstanceDetailsEn instanceDetails = _StringsInstanceDetailsEn._(_root);
 	late final _StringsSettingsScreenEn settingsScreen = _StringsSettingsScreenEn._(_root);
 	late final _StringsErrorsEn errors = _StringsErrorsEn._(_root);
+	String get About => 'About';
+	String get Close => 'Close';
+	String get Copyright => 'All rights reserved';
 }
 
 // Path: home
@@ -307,6 +310,9 @@ class _StringsAr implements Translations {
 	@override late final _StringsInstanceDetailsAr instanceDetails = _StringsInstanceDetailsAr._(_root);
 	@override late final _StringsSettingsScreenAr settingsScreen = _StringsSettingsScreenAr._(_root);
 	@override late final _StringsErrorsAr errors = _StringsErrorsAr._(_root);
+	@override String get About => 'حول';
+	@override String get Close => 'إغلاق';
+	@override String get Copyright => 'جميع الحقوق محفوظة';
 }
 
 // Path: home
@@ -493,6 +499,9 @@ extension on Translations {
 			case 'settingsScreen.Main': return 'Main';
 			case 'settingsScreen.other': return 'Other';
 			case 'errors.networkConnectionError': return 'Network connection error';
+			case 'About': return 'About';
+			case 'Close': return 'Close';
+			case 'Copyright': return 'All rights reserved';
 			default: return null;
 		}
 	}
@@ -558,6 +567,9 @@ extension on _StringsAr {
 			case 'settingsScreen.Main': return 'الرئيسية';
 			case 'settingsScreen.other': return 'أُخرى';
 			case 'errors.networkConnectionError': return 'خطأ في الإتصال بالشبكة';
+			case 'About': return 'حول';
+			case 'Close': return 'إغلاق';
+			case 'Copyright': return 'جميع الحقوق محفوظة';
 			default: return null;
 		}
 	}
