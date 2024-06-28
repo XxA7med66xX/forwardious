@@ -64,7 +64,7 @@ https://github.com/XxA7med66xX/forwardious/assets/97599003/3e976c57-5623-431d-bd
 
 # 🌐 Supported browsers
 
-All chromium browsers are supported
+All Chromium-based browsers are supported
 
 ![Chromium](https://img.shields.io/badge/Chromium-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white)
 
@@ -100,4 +100,4 @@ After the build is complete, you will find the extension files in `forwardious/b
 
 - [Invidious project](https://github.com/iv-org/invidious)
 
-- [SVG repo](https://www.svgrepo.com/svg/292057/forward-fast-forward).
+- [SVG repo](https://www.svgrepo.com/svg/292057/forward-fast-forward)
