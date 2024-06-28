@@ -7,6 +7,10 @@
 <br/>
 
 <p align="center">
+  <a href="https://github.com/XxA7med66xX/forwardious/blob/main/README_ar.md">[العربية]</a>
+</p>
+
+<p align="center">
   A Chrome extension that allows you to redirect any YouTube link you visit to an 
   <a href="https://github.com/iv-org/invidious">Invidious</a> instance.
   Also, it lets you choose the instance and adjust its settings once, and these settings are applied to all other instances you choose from the list.
