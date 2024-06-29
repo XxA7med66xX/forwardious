@@ -73,8 +73,6 @@ https://github.com/XxA7med66xX/forwardious/assets/97599003/3e976c57-5623-431d-bd
 
 ![Vivaldi](https://img.shields.io/badge/Vivaldi-EF3939?style=for-the-badge&logo=Vivaldi&logoColor=white)
 
-![Tor browser](https://img.shields.io/badge/Tor_Browser-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
-
 # 🔧 البناء
 
 يجب أن يكون Git مثبتًا وأن يكون SDK Flutter مُضافاً إلى متغيرات البيئة في نظام التشغيل الخاص بك.
