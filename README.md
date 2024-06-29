@@ -76,8 +76,6 @@ All Chromium-based browsers are supported
 
 ![Vivaldi](https://img.shields.io/badge/Vivaldi-EF3939?style=for-the-badge&logo=Vivaldi&logoColor=white)
 
-![Tor browser](https://img.shields.io/badge/Tor_Browser-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
-
 # 🔧 Build
 
 You must have Git installed and the Flutter SDK added to your OS environment variables
